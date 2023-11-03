@@ -1,14 +1,15 @@
 <template>
-  <PadreDeportes />
+  <MenuComponent />
+  <router-view></router-view>
 </template>
 
 <script>
-import PadreDeportes from './components/PadreDeportes.vue'
+import MenuComponent from './components/MenuComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    PadreDeportes
+    MenuComponent
   }
 }
 </script>
