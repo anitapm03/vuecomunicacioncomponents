@@ -25,6 +25,9 @@
             <li><!-- Ruta con parámetro -->
                 <router-link to="/numerodoble/77">Numero Doble 77 | </router-link>
             </li>
+            <li><!-- Ruta con parámetro -->
+                <router-link to="/numerodoble/88">Numero Doble 88 | </router-link>
+            </li>
         </ul>
         
     </div>

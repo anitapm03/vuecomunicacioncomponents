@@ -17,6 +17,16 @@
 <script>
     export default {
         name: "NumeroDoble",
+        watch: {
+            '$route.params.numero'(nextVal, oldVal){
+
+                //solo hacemos las acciones cuando nuestro parámetro cambie
+                if (nextVal != oldVal){
+                    this.numero=parseInt(this.$route.params.numero);
+                    this.doble = this.numero * 2;
+                }
+            }
+        },
         data(){
             return {
                 mensaje: null,
