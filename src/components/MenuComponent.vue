@@ -19,6 +19,12 @@
             <li>
                 <router-link to="/checkbox">Checkbox dinámicos | </router-link>
             </li>
+            <li><!-- Ruta sin parámetro -->
+                <router-link to="/numerodoble">Numero Doble | </router-link>
+            </li>
+            <li><!-- Ruta con parámetro -->
+                <router-link to="/numerodoble/77">Numero Doble 77 | </router-link>
+            </li>
         </ul>
         
     </div>

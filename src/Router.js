@@ -5,6 +5,7 @@ import SumaPadre from './components/SumaPadre.vue';
 import ComicsComponent from './components/ComicsComponent.vue';
 import SelectMultiple from './components/SelectMultiple.vue';
 import GenerarCheckbox from './components/GenerarCheckbox.vue';
+import NumeroDoble from './components/NumeroDoble.vue';
 
 const myRoutes = [
     {
@@ -24,6 +25,9 @@ const myRoutes = [
     },
     {
         path: "/checkbox", component: GenerarCheckbox
+    },
+    {   //en esta ruta numero es opcional
+        path: "/numerodoble/:numero?", component: NumeroDoble
     }
 ]
 
