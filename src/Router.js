@@ -4,6 +4,7 @@ import PadreDeportes from './components/PadreDeportes.vue';
 import SumaPadre from './components/SumaPadre.vue';
 import ComicsComponent from './components/ComicsComponent.vue';
 import SelectMultiple from './components/SelectMultiple.vue';
+import GenerarCheckbox from './components/GenerarCheckbox.vue';
 
 const myRoutes = [
     {
@@ -20,6 +21,9 @@ const myRoutes = [
     },
     {
         path: "/select", component: SelectMultiple
+    },
+    {
+        path: "/checkbox", component: GenerarCheckbox
     }
 ]
 

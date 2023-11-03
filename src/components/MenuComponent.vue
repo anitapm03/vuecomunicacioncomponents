@@ -16,6 +16,9 @@
             <li>
                 <router-link to="/select">Select Multiple | </router-link>
             </li>
+            <li>
+                <router-link to="/checkbox">Checkbox dinámicos | </router-link>
+            </li>
         </ul>
         
     </div>
