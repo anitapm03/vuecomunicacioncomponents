@@ -28,6 +28,9 @@
             <li><!-- Ruta con parámetro -->
                 <router-link to="/numerodoble/88">Numero Doble 88 | </router-link>
             </li>
+            <li>
+                <router-link to="/tablas">Menu Tablas | </router-link>
+            </li>
         </ul>
         
     </div>

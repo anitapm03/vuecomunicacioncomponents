@@ -6,6 +6,8 @@ import ComicsComponent from './components/ComicsComponent.vue';
 import SelectMultiple from './components/SelectMultiple.vue';
 import GenerarCheckbox from './components/GenerarCheckbox.vue';
 import NumeroDoble from './components/NumeroDoble.vue';
+import MenuTablas from './components/MenuTablas.vue';
+import TablasMultiplicar from './components/TablasMultiplicar.vue';
 
 const myRoutes = [
     {
@@ -28,6 +30,12 @@ const myRoutes = [
     },
     {   //en esta ruta numero es opcional
         path: "/numerodoble/:numero?", component: NumeroDoble
+    },
+    {   
+        path: "/tablas", component: MenuTablas
+    },
+    {   
+        path: "/tabla/:numero", component: TablasMultiplicar
     }
 ]
 

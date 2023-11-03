@@ -11,6 +11,8 @@
             <h2 style="color: blue">Doble del recibido: {{doble}}</h2>
         </div>
 
+        <button @click="redirectToHome()">Home</button>
+
     </div>
 </template>
 
@@ -25,6 +27,11 @@
                     this.numero=parseInt(this.$route.params.numero);
                     this.doble = this.numero * 2;
                 }
+            }
+        },
+        methods:{
+            redirectToHome(){
+                this.$router.push("/");
             }
         },
         data(){
