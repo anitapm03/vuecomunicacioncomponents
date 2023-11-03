@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeComponent from './components/HomeComponent.vue';
 import PadreDeportes from './components/PadreDeportes.vue';
 import SumaPadre from './components/SumaPadre.vue';
-import ComicsComponent from './components/ComicsComponent.vue'
+import ComicsComponent from './components/ComicsComponent.vue';
+import SelectMultiple from './components/SelectMultiple.vue';
 
 const myRoutes = [
     {
@@ -16,6 +17,9 @@ const myRoutes = [
     },
     {
         path: "/comics", component: ComicsComponent
+    },
+    {
+        path: "/select", component: SelectMultiple
     }
 ]
 
